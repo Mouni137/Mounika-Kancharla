@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var d=78
+        console.log(d)
+        var d="javascript"
+        console.log(d)
+        var a=[44,35,67,35,77,35,89,43],dummy=[]
+        for(var q=0;q<a.length;q++){
+            console.log(a[q])
+        }
+        a.map(function(u){
+            console.log(u)
+        })
+        dummy=a.filter(function(u){
+            return u>35
+        })
+        console.log(dummy)
+        var names=["regd","efdsg","ddggd","dfgdh","hdfh"]
+        ages=[34,56,43,,66,33],city=["sdfs","dgdf","GDd","DGDF","GDFH"]
+        var completeList=[...names,...ages,...city]
+        console.log(completeList)
+    </script>
+</body>
+</html>
